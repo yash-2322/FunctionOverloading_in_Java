@@ -1,0 +1,22 @@
+class FuctionOverloading
+{
+	int FunctionName(int a,int b)
+	{
+	  return (a*b);
+	}
+	
+	static int FunctionName(int a,int b,int c)
+	{
+	  return (a*b*c);
+	}
+}
+class Main //Main Class Starts from here
+{ 
+   public static void main(String args[])
+   {
+	FuctionOverloading s = new FuctionOverloading();
+	System.out.println("s.FunctionName(10,20)");
+	System.out.println("s.FunctionName(10,20,30)");
+
+   }
+}
